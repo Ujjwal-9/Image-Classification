@@ -8,3 +8,4 @@ At the end, neural network make predictions on the sample images.
 ###Warning
 
 Donot run this program on your CPU. Run it on a GPU or use cloud computing. I used AWS (Amazon web services).
+I used EC2 instance. To be more specific i used g2.2xlarge GPU instance.
