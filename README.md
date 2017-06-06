@@ -15,7 +15,7 @@ The Inception Module is yet to be implemented.
 Inception module:
 ----------------------
 
-![Inception Module]()
+![Inception Module](https://github.com/Ujjwal-9/Image-Classification/blob/master/Inception%20Module.png)
 
 ### Warning
 
