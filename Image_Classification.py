@@ -238,7 +238,7 @@ def print_stats(session, feature_batch, label_batch, cost, accuracy):
     loss = session.run(cost, feed_dict={x: feature_batch, y: label_batch, keep_prob: 1.0})
     validation_accuracy = session.run(accuracy, feed_dict={x: valid_features, y: valid_labels, keep_prob: 1.0})
     
-    print('Loss: {:.4f} Validation Accuracy: {:.4f}'.format(loss, valid_accuracy))
+    print('Loss: {:.4f} Validation Accuracy: {:.4f}'.format(loss, validation_accuracy))
 
 
 # ### Hyperparameters
